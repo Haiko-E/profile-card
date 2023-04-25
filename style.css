@@ -58,14 +58,14 @@ body {
 
 body::before {
   display: inline-block;
-  content: url(./images/bg-pattern-top.svg);
+  content: url(./public/images/bg-pattern-top.svg);
   position: absolute;
   top: calc(-40rem + 22vw);
   left: calc(-40rem + 22vw);
 }
 
 body::after {
-  content: url(./images/bg-pattern-bottom.svg);
+  content: url(./public/images/bg-pattern-bottom.svg);
   position: absolute;
   bottom: calc(-40rem + 22vw);
   right: calc(-40rem + 22vw);
